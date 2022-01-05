@@ -20,6 +20,10 @@ function writePassword() {
     alert("I am sorry, but that is too many characters. Please try again");
     return;  
     
+  } else if (isNaN(passLen) == true) {
+
+    alert("Please enter Numbers only. Try again");
+    return;  
   }
   else {
     
